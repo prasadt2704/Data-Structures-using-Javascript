@@ -22,7 +22,8 @@ export default class Queue {
     }
   
     getLast() {
-      if (this.isEmpty()) {
+      if (this
+        .isEmpty()) {
         console.log("Nothing to print");
       } else {
         return this.data[this.rear - 1];
